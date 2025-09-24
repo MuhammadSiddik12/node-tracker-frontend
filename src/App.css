@@ -1,0 +1,55 @@
+.App {
+	text-align: left;
+}
+
+/* Custom marker styles */
+.custom-div-icon {
+	background: transparent !important;
+	border: none !important;
+}
+
+/* Map container styles */
+.leaflet-container {
+	height: 100%;
+	width: 100%;
+}
+
+/* Scrollbar styles for sidebar */
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #c1c1c1;
+	border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #a8a8a8;
+}
+
+/* Button hover effects */
+button:hover {
+	opacity: 0.8;
+	transition: opacity 0.2s;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+	.App {
+		font-size: 14px;
+	}
+
+	h1 {
+		font-size: 1.2rem !important;
+	}
+
+	button {
+		padding: 6px 12px !important;
+		font-size: 0.9rem !important;
+	}
+}
